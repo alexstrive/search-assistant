@@ -1,10 +1,12 @@
-# Запуск
+# How to start
 
-Необходимо указать API ключи для работы сервисов Bing и Google. В противном случае поиск будет не доступен на данных платформах. Пример оформления переменных указан в `.env.example`.
+You need to provide environment variables before starting the server.
 
-Пример работы приложения https://searchassistant.netlify.app/
+You can find example in `.env.example` file
 
 ```
 yarn
 yarn start
 ```
+
+The application is deployed on https://searchassistant.netlify.app/
