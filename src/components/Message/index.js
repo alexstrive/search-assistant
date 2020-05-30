@@ -21,7 +21,7 @@ const Message = (props) => {
 
           <div>
             <small>
-              {date.getDay()}.{date.getMonth() + 1}.{date.getFullYear()}
+              {date.getDate()}.{date.getMonth() + 1}.{date.getFullYear()}
             </small>
           </div>
         </Alert>
